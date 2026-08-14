@@ -4,7 +4,7 @@ on:
   schedule:
     # این دستور ربات را هر ۵ دقیقه اجرا می‌کند
     - cron: '*/5 * * * *'
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
   build:
